@@ -22,44 +22,78 @@
   <a href="./privacy.html">Privacy Policy</a>
   <a href="./terms.html">Terms of Service</a>
 </div>
-<p class="updated">Last updated: October 10, 2026</p>
+<p class="updated">Last updated: October 11, 2026</p>
 
 <p>This Privacy Policy explains how <strong>Aydmaxx Shorts Uploader</strong> (the "Tool"), a private
 internal automation tool, handles data. The Tool is used only by the owners of the
-<em>Aydan Makhmudov | Agro</em> and <em>Xina Kitchen</em> YouTube channels ("the Owners").</p>
+<em>Aydan Makhmudov | Agro</em> and <em>Xina Kitchen</em> channels and of the
+<em>@cardealertracker</em> Instagram account ("the Owners"). It includes the Meta app
+<em>Aydan Shorts</em>.</p>
 
 <h2>1. Data the Tool processes</h2>
-<p>The Tool accesses YouTube data through <strong>YouTube API Services</strong> (YouTube Data API v3)
-for the authorized channels only: the channel identifier, videos that are uploaded through the Tool,
-custom thumbnails, subtitles (captions) and scheduled publish times. The Tool also stores OAuth
-credentials (an access/refresh token) locally on the Owner's computer in the macOS Keychain.</p>
+<p><strong>YouTube.</strong> The Tool accesses YouTube data through <strong>YouTube API Services</strong>
+(YouTube Data API v3) for the authorized channels only: the channel identifier, videos that are uploaded
+through the Tool, custom thumbnails, subtitles (captions) and scheduled publish times. The Tool also stores
+OAuth credentials (an access/refresh token) locally on the Owner's computer in the macOS Keychain.</p>
+<p><strong>Instagram.</strong> Through the Instagram API, for the Owners' own Instagram professional accounts
+(@aydan_makhmudov, @xinakitchen, @cardealertracker) only: the account identifier and username, the Owners'
+own posts (Reels, captions, covers), and public comments that other people leave on the Owners' own posts:
+the comment text, the commenter's Instagram username, the comment time and identifier. The Tool does not
+access direct messages, follower lists, profile photos or any other data about commenters.</p>
+<p><strong>Telegram.</strong> The Tool posts the Owners' own videos to the Owners' Telegram channels and
+sends private notifications to the Owner's own Telegram chat through the Telegram Bot API.</p>
 
 <h2>2. How data is used</h2>
-<p>Data is used solely to upload the Owners' own videos to the Owners' own YouTube channels and to
-manage those videos. The Tool has no external users and does not collect data about any other
-person.</p>
+<ul>
+  <li>To upload the Owners' own videos to the Owners' own YouTube channels, Instagram accounts and
+  Telegram channels, and to manage those videos.</li>
+  <li>To help the Owners reply to comments. When a new comment appears on an Owner's post, the Tool sends
+  the comment text, the commenter's username, the post caption and the Owners' own notes about the video
+  to Google's Gemini model to draft a reply, then shows the comment and the draft to the Owner in
+  Telegram. <strong>A reply is posted only after the Owner reviews and approves it.</strong> The Owner
+  can edit, rewrite or skip it, or hide an obvious spam comment.</li>
+</ul>
+<p>The Tool does not build profiles of people, does not use data for advertising, and makes no automated
+decisions about anyone. It has no external users.</p>
 
 <h2>3. Sharing</h2>
-<p>No data is sold, rented, shared or transferred to third parties. The Tool transmits data only to
-Google/YouTube through the official YouTube API Services endpoints.</p>
+<p>No data is sold or rented. Data is transmitted only to the services needed for the functions above:
+Google/YouTube (YouTube API Services), Meta/Instagram (Instagram API), Google Gemini (drafting replies;
+Google processes this data under its own terms and the
+<a href="https://policies.google.com/privacy">Google Privacy Policy</a>), Telegram (the Owners' channels
+and the Owner's private notifications) and Cloudflare R2 (temporary hosting of the Owners' own video files
+and covers so that Instagram can fetch them for publishing).</p>
 
 <h2>4. YouTube API Services and Google policies</h2>
 <p>This Tool uses YouTube API Services. By using the Tool you agree to be bound by the
 <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>. Google's handling of data is
 described in the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
 
-<h2>5. Data storage and deletion</h2>
-<p>OAuth credentials and working files are stored locally on the Owners' computer and can be deleted
-at any time. Access can be revoked, and stored authorization data deleted, at
-<a href="https://myaccount.google.com/connections">Google Account &rarr; Third-party apps &amp;
-services</a> (myaccount.google.com/connections) or by deleting the stored credentials locally.
-Revoking access removes the Tool's stored OAuth token and stops all further API access. To request
-deletion of any related data, contact the email below.</p>
+<h2>5. Instagram and Meta policies</h2>
+<p>The Tool uses the Instagram Platform in line with the
+<a href="https://developers.facebook.com/terms/">Meta Platform Terms</a> and the
+<a href="https://developers.facebook.com/devpolicy/">Meta Developer Policies</a>. Instagram's handling of
+data is described in the <a href="https://privacy.instagram.com/policy">Instagram Privacy Policy</a>.</p>
 
-<h2>6. Changes</h2>
+<h2>6. Data storage and retention</h2>
+<p>Comment data and reply drafts are stored only locally on the Owners' computer, not on any server, and
+are deleted automatically 90 days after they were processed. Credentials (YouTube OAuth tokens, Instagram
+and Telegram tokens) are stored locally in the macOS Keychain. Notifications in the Owner's Telegram chat
+remain under the Owner's control.</p>
+
+<h2>7. Deletion and revoking access</h2>
+<p>If you commented on one of the Owners' posts and want your data deleted from the Tool, email the address
+below with your Instagram username. We will delete it within 30 days and confirm by email.</p>
+<p>The Owners can revoke the Tool's access at any time: for YouTube at
+<a href="https://myaccount.google.com/connections">Google Account &rarr; Third-party apps &amp;
+services</a> (myaccount.google.com/connections), for Instagram in Instagram Settings &rarr; Website
+permissions &rarr; Apps and websites, or by deleting the stored credentials locally. Revoking access stops
+all further API access.</p>
+
+<h2>8. Changes</h2>
 <p>Any changes to this policy will be published on this page with an updated date.</p>
 
-<h2>7. Contact</h2>
+<h2>9. Contact</h2>
 <p>Email: <a href="mailto:aydmaxx@gmail.com">aydmaxx@gmail.com</a></p>
 
 <footer>
